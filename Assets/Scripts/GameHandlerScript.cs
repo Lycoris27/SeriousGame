@@ -8,6 +8,7 @@ public class GameHandlerScript : MonoBehaviour
 {
     public int wValue;
     public TextMeshProUGUI wPressedTxt;
+    //private GameObject otherGameHandler;
     // Start is called before the first frame update
     void Awake()
     {
@@ -31,6 +32,12 @@ public class GameHandlerScript : MonoBehaviour
         {
             print("hello");
             wValue += 1;
+            PlayerPrefs.SetInt("PressedW", wValue);
+            wPressedTxt.text = PlayerPrefs.GetInt("PressedW").ToString();
+        }
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            wValue = 0;
             PlayerPrefs.SetInt("PressedW", wValue);
             wPressedTxt.text = PlayerPrefs.GetInt("PressedW").ToString();
         }
