@@ -7,3 +7,8 @@ Things to check later:
 
 - insert a system whereby reaching the end of a dialogue option, the dialogue box is closed or hidden. 
 - maybe possible to create prefabs for the dialogue and kill them once it reaches the end.
+
+
+- For practice system, might be good to create a loadable prefab that randomly creates a puzzle
+- the puzzle would generate random digits and then use math to find the answer, push that to a random text on the screen
+- wrong answers can be created by finding the answer and, based on the value, either randomly or smart find wrong answers (ie. 2^2 = 4, smart wrong answer could be 2^3 or 3^2 and dumb wrong answer could be answer + random amount of digits between 1 and 5)
