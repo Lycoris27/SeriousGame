@@ -950,7 +950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   intValues: 
-  intLength: 5
+  intLength: 20
   answersText:
   - {fileID: 490695067}
   - {fileID: 351600787}

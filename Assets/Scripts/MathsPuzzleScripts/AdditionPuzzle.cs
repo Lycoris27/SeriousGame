@@ -59,14 +59,15 @@ public class AdditionPuzzle : MonoBehaviour
     }
     private void PushToText()
     {
-        for (int i = 0; intValues.Length > i; i++)
+        for (int i = 0; answers.Length > i; i++)
         {
+            print(i);
             value = Random.Range(0, 3);
             //print("AAAAAAAAAA" + value);
             if (i == 0)
             {
                 answers[value] = solution;
-                answersText[i].text = answers[value].ToString();
+                //answersText[i].text = answers[value].ToString();
             }
 
             if (i == 1)
@@ -84,7 +85,7 @@ public class AdditionPuzzle : MonoBehaviour
                     }
 
                 }
-            answersText[i].text = answers[value].ToString();
+            //answersText[i].text = answers[value].ToString();
             }
             else
             {
@@ -101,8 +102,8 @@ public class AdditionPuzzle : MonoBehaviour
                     }
 
                 }
-            answersText[i].text = answers[value].ToString();
             }
+            answersText[i].text = answers[value].ToString();
         }
         
     }
