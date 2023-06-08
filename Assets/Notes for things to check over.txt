@@ -3,3 +3,7 @@ Things to check later:
 - How to remove second GameCanvas from Title Screen without doubling the title screen
 - Check to see whether it's better to have a camera go between scenes or a canvas (having 2 canvas' in a scene doesn't seem optimal)
 - make sure there is only 1 event manager in a scene at a time (linked with the canvas problem as there will be difficulties having things travel through scenes)
+
+
+- insert a system whereby reaching the end of a dialogue option, the dialogue box is closed or hidden. 
+- maybe possible to create prefabs for the dialogue and kill them once it reaches the end.
